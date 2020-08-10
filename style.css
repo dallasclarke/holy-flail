@@ -3,37 +3,48 @@
 }
 
 #app {
+  display: flex;
+  flex-direction: column;
   font-size: 5em;
   text-align: center;
   height: 100vh;
 }
 
 #header {
+  display: flex;
+  flex-direction: column;
   background-color: #f3ca40;
   height: 20vh;
   width: 100vw;
 }
 
 #middle {
+  display: flex;
   height: 60vh;
   width: 100vw;
 }
 
 #main {
+  display: flex;
   width: 80%;
+
 }
 
 #nav {
+  
   width: 20%;
   background-color: #4b4e6d;
 }
 
 #articles {
+  display: flex;
+  justify-content: center;
   width: 60vw;
   background-color: #6a8d92;
 }
 
 #ads {
+  display: flex;
   width: 20vw;
   background-color: #f2a541;
 }
